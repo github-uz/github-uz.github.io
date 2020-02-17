@@ -252,34 +252,42 @@
 		text-decoration: none
 		}
 		* {
-		box-sizing: border-box;
+		box-sizing: border-box
 		}
-		#input {
-		/* background-image: url('../css/searchicon.png'); */
-		background-position: 10px 10px;
-		background-repeat: no-repeat;
-		width: 100%;
-		font-size: 16px;
+		input[type=text] {
+		width: 25%;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		font-size: 1em;
+		background-color: transparent;
+		color: #fff;
 		padding: 12px 20px 12px 40px;
-		border: 1px solid #ddd;
-		margin-bottom: 12px;
+		-webkit-transition: width .4s ease-in-out;
+		transition: width .4s ease-in-out;
+		margin-bottom: 1em;
+		border-radius: 10px;
+		text-align: center;
+		outline: 0
+		}
+		input[type=text]:focus {
+		width: 100%;
+		color: #63c0f5;
+		text-shadow: 0 0 5px rgba(104,182,255,.5)
 		}
 		#table {
 		border-collapse: collapse;
 		width: 100%;
 		border: 1px solid #ddd;
-		font-size: 18px;
+		font-size: 18px
 		}
-		#table th, #table td {
+		#table td,#table th {
 		text-align: left;
-		padding: 12px;
+		padding: 12px
 		}
 		#table tr {
-		border-bottom: 1px solid #ddd;
+		border-bottom: 1px solid #ddd
 		}
-		#table tr.header, #table tr:hover {
-		/* background-color: #b5e853; */
-		/* color: #000; */
+		#table tr.header,#table tr:hover {
 		cursor: pointer
 		}
 		</style>
@@ -300,7 +308,9 @@
 	<body>
 		<header>
 			<div class="container">
-				<h1>Github-uz</h1>
+				<a id="a-title" href="https://github-uz.github.io">
+					<h1>Github-uz.github.io</h1>
+				</a>
 				<h2>Assalomu alaykum 😊 Uzbeklar yaratgan - Repository to'plash maqsadida ochilgan...</h2>
 				<h3><strong>Jami:</strong> 10-ta Repository</h3>
 				<section id="downloads">
@@ -312,7 +322,7 @@
 		</header>
 		<div class="container">
 			<section id="main_content">
-				<input type="text" id="input" onkeyup="myFunction()" placeholder="Dasturlash tili izlash...">
+				<input type="text" id="input" onkeyup="myFunction()" placeholder="Dasturlash tili izlash..." tabindex="1">
 				<table id="table" style="overflow-x:auto;">
 					<tr class="header">
 						<th onclick="sortTable(1)" style="width:60%;" title="Dasturlashni tili">Tili</th>
