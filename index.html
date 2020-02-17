@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="uz-UZ">
 	<head>
-		<meta charset='utf-8'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
@@ -290,6 +291,53 @@
 		#table tr.header,#table tr:hover {
 		cursor: pointer
 		}
+		.sticky {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		}
+		.icon-bar {
+		position: fixed;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		}
+		.icon-bar a {
+		display: block;
+		text-align: center;
+		padding: 16px;
+		transition: all 0.3s ease;
+		color: white;
+		font-size: 20px;
+		}
+		.icon-bar a:hover {
+		background-color: #000;
+		}
+		.facebook {
+		background: #3B5998;
+		color: white;
+		}
+		.twitter {
+		background: #55ACEE;
+		color: white;
+		}
+		.google {
+		background: #dd4b39;
+		color: white;
+		}
+		.linkedin {
+		background: #007bb5;
+		color: white;
+		}
+		.youtube {
+		background: #bb0000;
+		color: white;
+		}
+		.sms {
+		background: #bb0000;
+		color: white;
+		}
 		</style>
 		<!-- Begin Jekyll SEO tag v2.6.1 -->
 		<title>Github-uz</title>
@@ -322,22 +370,22 @@
 		</header>
 		<div class="container">
 			<section id="main_content">
-				<input type="text" id="input" onkeyup="myFunction()" placeholder="Dasturlash tili izlash..." tabindex="1">
-				<table id="table" style="overflow-x:auto;">
+				</i><input class="sticky" type="text" id="input" onkeyup="myFunction()" placeholder="Dasturlash tili izlash...">
+				<table class="" id="table" style="overflow-x:auto;">
 					<tr class="header">
-						<th onclick="sortTable(1)" style="width:60%;" title="Dasturlashni tili">Tili</th>
-						<th onclick="sortTable(0)" style="width:40%;" title="Repository nomi">Nomi</th>
-						<th onclick="sortTable(2)" style="width:40%;" title="Repository muallifi">Muallifi</th>
+						<th onclick="sortTable(1)" style="width:60%;" title="Dasturlashni tili"><i class="fa fa-file-code-o"></i> Tili</th>
+						<th onclick="sortTable(0)" style="width:40%;" title="Repository nomi"><i class="fa fa-archive"></i> Nomi</th>
+						<th onclick="sortTable(2)" style="width:40%;" title="Repository muallifi"><i class="fa fa-user-o"></i> Muallifi</th>
 					</tr>
 					<tr>
 						<td>JavaScript/JS, HTML, CSS</td>
 						<td><a href="https://github.com/Muhammadjewel/movies-app">movies app</a></td>
-						<td><a href="https://t.me/Muhammadjavohirbek" title="Telegram profil">Muhammadjavohir Sur'atov</a></td>
+						<td title="Telegram profil"><a href="https://t.me/Muhammadjavohirbek">Muhammadjavohir Sur'atov</a></td>
 					</tr>
 					<tr>
 						<td>PHP</td>
 						<td><a href="https://github.com/zetgram/zetgram">zetgram</a></td>
-						<td><a href="https://t.me/kripton" title="Telegram profil">Azizbek</a></td>
+						<td title="Telegram profil"><a href="https://t.me/kripton">Azizbek</a></td>
 					</tr>
 					<tr>
 						<td>Frontend, Vue, JavaScript/js, Backend, Nodejs, TypeScript/TS, DB, Mongodb</td>
@@ -347,37 +395,37 @@
 					<tr>
 						<td>CSS, HTML, Js</td>
 						<td><a href="https://github.com/Burhon-Baqoyev/uzbek_developer">uzbek developer</a></td>
-						<td><a href="https://t.me/python3developer" title="Telegram profil">Burhon Baqoyev</a></td>
+						<td title="Telegram profil"><a href="https://t.me/python3developer">Burhon Baqoyev</a></td>
 					</tr>
 					<tr>
 						<td>JavaScript/JS</td>
 						<td><a href="https://github.com/codeuzOfficial/OOP-Exercise">OOP Exercise</a></td>
-						<td><a href="https://t.me/Jumaniyazov_Bobur" title="Telegram profil">Bobur</a></td>
+						<td title="Telegram profil"><a href="https://t.me/Jumaniyazov_Bobur">Bobur</a></td>
 					</tr>
 					<tr>
 						<td>JavaScript/JS</td>
 						<td><a href="https://github.com/codeuzOfficial/OOP-Lesson">OOP Lesson</a></td>
-						<td><a href="https://t.me/Jumaniyazov_Bobur" title="Telegram profil">Bobur</a></td>
+						<td title="Telegram profil"><a href="https://t.me/Jumaniyazov_Bobur">Bobur</a></td>
 					</tr>
 					<tr>
 						<td>JavaScript/JS</td>
 						<td><a href="https://github.com/codeuzOfficial/Java-Collection">Java Collection</a></td>
-						<td><a href="https://t.me/Jumaniyazov_Bobur" title="Telegram profil">Bobur</a></td>
+						<td title="Telegram profil"><a href="https://t.me/Jumaniyazov_Bobur">Bobur</a></td>
 					</tr>
 					<tr>
 						<td>JavaScript/JS</td>
 						<td><a href="https://github.com/codeuzOfficial/Java-Map">Java Map</a></td>
-						<td><a href="https://t.me/Jumaniyazov_Bobur" title="Telegram profil">Bobur</a></td>
+						<td title="Telegram profil"><a href="https://t.me/Jumaniyazov_Bobur">Bobur</a></td>
 					</tr>
 					<tr>
 						<td>HTML, CSS, JavaScript/JS</td>
 						<td><a href="https://github.com/Muhammadjewel/885383-device-25">885383-device-25</a></td>
-						<td><a href="https://t.me/Muhammadjavohirbek" title="Telegram profil">Muhammadjavohir Sur'atov</a></td>
+						<td title="Telegram profil"><a href="https://t.me/Muhammadjavohirbek">Muhammadjavohir Sur'atov</a></td>
 					</tr>
 					<tr>
 						<td>CSS, HTML, JavaScript/JS</td>
 						<td><a href="https://github.com/Muhammadjewel/885383-mishka-17">885383-mishka-17</a></td>
-						<td><a href="https://t.me/Muhammadjavohirbek" title="Telegram profil">Muhammadjavohir Sur'atov</a></td>
+						<td title="Telegram profil"><a href="https://t.me/Muhammadjavohirbek">Muhammadjavohir Sur'atov</a></td>
 					</tr>
 				</table>
 				<h2 id="header-2">Github-uz haqida:</h2>
@@ -445,6 +493,13 @@
 				<footer>
 					<h1>&copy GitHub-uz/2020</h1>
 				</footer>
+			</div>
+			<div class="icon-bar">
+				<a href="#" class="sms"><i class="fa fa-wechat"></i></a>
+				<a href="https://www.facebook.com/sharer.php?u=https://github-uz.github.io" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="google"><i class="fa fa-google"></i></a>
+				<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+				<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 			</div>
 		</body>
 	</html>
