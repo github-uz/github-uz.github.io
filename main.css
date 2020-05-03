@@ -1,3 +1,48 @@
+* {
+box-sizing: border-box
+}
+input[type=text] {
+width: 25%;
+box-sizing: border-box;
+border: 2px solid #ccc;
+font-size: 1em;
+background-color: transparent;
+color: #fff;
+padding: 12px 20px 12px 40px;
+-webkit-transition: width .4s ease-in-out;
+transition: width .4s ease-in-out;
+margin-bottom: 1em;
+border-radius: 10px;
+text-align: center;
+outline: 0
+}
+input[type=text]:focus {
+width: 100%;
+color: #63c0f5;
+text-shadow: 0 0 5px rgba(104,182,255,.5)
+}
+#table {
+border-collapse: collapse;
+width: 100%;
+border: 1px solid #ddd;
+font-size: 18px
+}
+#table td,#table th {
+text-align: left;
+padding: 12px
+}
+#table tr {
+border-bottom: 1px solid #ddd
+}
+#table tr.header,#table tr:hover {
+cursor: pointer
+}
+.sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+
 /* theme: jekyll-theme-hacker */
 .highlight,.highlight .w {
 color: #d0d0d0
@@ -244,91 +289,4 @@ zoom: 1
 }
 #a-title {
 text-decoration: none
-}
-/* end - theme: jekyll-theme-hacker */
-* {
-box-sizing: border-box
-}
-input[type=text] {
-width: 25%;
-box-sizing: border-box;
-border: 2px solid #ccc;
-font-size: 1em;
-background-color: transparent;
-color: #fff;
-padding: 12px 20px 12px 40px;
--webkit-transition: width .4s ease-in-out;
-transition: width .4s ease-in-out;
-margin-bottom: 1em;
-border-radius: 10px;
-text-align: center;
-outline: 0
-}
-input[type=text]:focus {
-width: 100%;
-color: #63c0f5;
-text-shadow: 0 0 5px rgba(104,182,255,.5)
-}
-#table {
-border-collapse: collapse;
-width: 100%;
-border: 1px solid #ddd;
-font-size: 18px
-}
-#table td,#table th {
-text-align: left;
-padding: 12px
-}
-#table tr {
-border-bottom: 1px solid #ddd
-}
-#table tr.header,#table tr:hover {
-cursor: pointer
-}
-.sticky {
-position: -webkit-sticky;
-position: sticky;
-top: 0;
-}
-.icon-bar {
-position: fixed;
-top: 50%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-}
-.icon-bar a {
-display: block;
-text-align: center;
-padding: 16px;
-transition: all 0.3s ease;
-color: white;
-font-size: 20px;
-}
-.icon-bar a:hover {
-background-color: #000;
-}
-.facebook {
-background: #3B5998;
-color: white;
-}
-.twitter {
-background: #55ACEE;
-color: white;
-}
-.google {
-background: #dd4b39;
-color: white;
-}
-.linkedin {
-background: #007bb5;
-color: white;
-}
-.youtube {
-background: #bb0000;
-color: white;
-}
-.sms {
-background: #bb0000;
-color: white;
 }
