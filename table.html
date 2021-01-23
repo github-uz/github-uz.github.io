@@ -1,0 +1,18 @@
+<table class="table" style="overflow-x:auto;">
+	<thead>
+		<tr class="header">
+			<th>№</th>
+			<th>Ismi va Famila</th>
+			<th>Repo Nomi</th>
+			<th>Repo Tili</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="x in names | orderBy">
+			<td class="text-center">{{ $index + 1 }}</td>
+			<td><a href="https://t.me/{{ x.TName }}">{{ x.Name }}</a></td>
+			<td><a href="https://github.com/{{ x.GName }}/{{ x.RName }}">{{ x.RName | uppercase }}</a></td>
+			<td>{{ x.RLang | uppercase }}</td>
+		</tr>
+	</tbody>
+</table>
