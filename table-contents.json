@@ -1,4 +1,71 @@
 { "records":[
+
+{"Name":"Samandar Murodjonov",
+"TName":"Kakashi_Xatake",
+"GName":"microlib-php",
+"RName":"microlib",
+"RLang":"php — Telegram Bot — Telegram Bot Kutubxona"},
+
+{"Name":"Nuruddin Iminokhunov",
+"TName":"imnuruddin",
+"GName":"Nuruddinjr",
+"RName":"developer-roadmap/tree/master/translations/uzbek",
+"RLang":"web dasturchilar uchun yo'l xaritasi/rasmli variantda, radmap_sh"},
+
+{"Name":"Akbar Ali",
+"TName":"none",
+"GName":"akbarali1",
+"RName":"clash-of-clans-api-php",
+"RLang":"php"},
+
+{"Name":"Akbar Ali",
+"TName":"none",
+"GName":"akbarali1",
+"RName":"php-short-code",
+"RLang":"php"},
+
+{"Name":"Shoxrux Rashidov",
+"TName":"MrRashidov",
+"GName":"shoxruxrashidov",
+"RName":"todo",
+"RLang":"Vue — JavaScript — SCSS — HTML"},
+
+{"Name":"Shoxrux Rashidov",
+"TName":"MrRashidov",
+"GName":"shoxruxrashidov",
+"RName":"laravel-docker",
+"RLang":"Dockerfile — php — html"},
+
+{"Name":"Shoxrux Rashidov",
+"TName":"MrRashidov",
+"GName":"shoxruxrashidov",
+"RName":"phpDocker",
+"RLang":"Dockerfile — php"},
+
+{"Name":"Shoxrux Rashidov",
+"TName":"MrRashidov",
+"GName":"shoxruxrashidov",
+"RName":"nodejs-restfull-api",
+"RLang":"JavaScript"},
+
+{"Name":"Shoxrux Rashidov",
+"TName":"MrRashidov",
+"GName":"shoxruxrashidov",
+"RName":"graphql-node-crud",
+"RLang":"JavaScript — shell"},
+
+{"Name":"Muhammadqodir Khamrakulov",
+"TName":"none",
+"GName":"thecoderslib",
+"RName":"EncoderPD-Web",
+"RLang":"html — css — JavaScript"},
+
+{"Name":"SHEYKHRI",
+"TName":"Kakashi_Xatake",
+"GName":"sheykhri",
+"RName":"sheykhri",
+"RLang":"PHP — Telegram Bot"},
+
 {"Name":"Samandar Murodjonov",
 "TName":"Kakashi_Xatake",
 "GName":"alfauz",
@@ -122,18 +189,6 @@
 {"Name":"Bobur",
 "TName":"Jumaniyazov_Bobur",
 "RName":"OOP-Exercise",
-"GName":"codeuzOfficial",
-"RLang":"JavaScript/js"},
-
-{"Name":"Bobur",
-"TName":"Jumaniyazov_Bobur",
-"RName":"OOP-Lesson",
-"GName":"codeuzOfficial",
-"RLang":"JavaScript/js"},
-
-{"Name":"Bobur",
-"TName":"Jumaniyazov_Bobur",
-"RName":"OOP-Lesson",
 "GName":"codeuzOfficial",
 "RLang":"JavaScript/js"},
 

@@ -10,8 +10,8 @@
 	<tbody>
 		<tr ng-repeat="x in names | orderBy">
 			<td class="text-center">{{ $index + 1 }}</td>
-			<td><a href="https://t.me/{{ x.TName }}">{{ x.Name }}</a></td>
-			<td><a href="https://github.com/{{ x.GName }}/{{ x.RName }}">{{ x.RName | uppercase }}</a></td>
+			<td><a target="_blank" href="https://t.me/{{ x.TName }}">{{ x.Name }}</a></td>
+			<td><a target="_blank" href="https://github.com/{{ x.GName }}/{{ x.RName }}">{{ x.RName | uppercase }}</a></td>
 			<td>{{ x.RLang | uppercase }}</td>
 		</tr>
 	</tbody>
