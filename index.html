@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uz-UZ" ng-app="myApp" ng-controller="customersCtrl">
+<html lang="uz-UZ" ng-app="myApp">
 	<head>
 		<meta charset="UTF-8">
 		<title>GitHub uz</title>
@@ -8,7 +8,6 @@
 		<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 		<link rel="canonical" href="https://github-uz.github.io/">
 		<!-- Primary Meta Tags -->
-		<title>uzRepository to'plash maqsadida ochilgan</title>
 		<meta name="title" content="uzRepository to'plash maqsadida ochilgan">
 		<meta name="description" content="">
 		
@@ -46,17 +45,17 @@
 		<div ng-include="'header.html'"></div>
 		<main class="main_content">
 			<div class="container">
-				<div ng-include="'/template-parts/index-blog.html'" class="mb-4"></div>
-				<div ng-include="'/template-parts/table/table.html'"></div>
-				<div ng-include="'footer.html'"></div>
+				<div ng-include="'/template-parts/blog.html'" class="mb-4"></div>
+				<div ng-include="'/template-parts/table.html'" ng-controller="content-table"></div>
 			</div>
 		</main>
+		<div ng-include="'footer.html'"></div>
 		<script>
-		var app = angular.module('myApp', []);
-		app.controller('customersCtrl', function($scope, $http) {
-		$http.get("/assets/json/table-contents.json")
-		.then(function (response) {$scope.names = response.data.records;});
-		});
+			var app = angular.module('myApp', []);
+			app.controller('content-table', function($scope, $http) {
+				$http.get("/assets/json/content-table.json")
+				.then(function (response) {$scope.names = response.data.records;});
+			});
 		</script>
 		<!-- <script src="main.js"></script> -->
 	</body>
