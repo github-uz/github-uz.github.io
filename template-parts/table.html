@@ -20,14 +20,14 @@ table tr {
     border-bottom: 1px solid #ddd
 }
 
-table tr.header,
-table tr:hover {
-    cursor: pointer
+thead {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
 }
-
 </style>
 
-<table class="table" style="overflow-x:auto;">
+<table class="table-header" style="overflow-x:auto;">
 	<thead>
 		<tr class="header">
 			<th>№</th>
