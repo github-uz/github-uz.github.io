@@ -44,11 +44,13 @@
 	</head>
 	<body>
 		<div ng-include="'header.html'"></div>
-		<div class="container">
-			<div ng-include="'/template-parts/content/blog.html'"></div>
-			<div ng-include="'/template-parts/table/table.html'"></div>
-			<div ng-include="'footer.html'"></div>
-		</div>
+		<main class="main_content">
+			<div class="container">
+				<div ng-include="'/template-parts/index-blog.html'" class="mb-4"></div>
+				<div ng-include="'/template-parts/table/table.html'"></div>
+				<div ng-include="'footer.html'"></div>
+			</div>
+		</main>
 		<script>
 		var app = angular.module('myApp', []);
 		app.controller('customersCtrl', function($scope, $http) {
