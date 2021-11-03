@@ -1,11 +1,60 @@
 {
     "records": [
         {
+            "Name": "Mirsoli Mirsultonov",
+            "TName": "ilosrim",
+            "GName": "codahiri",
+            "RName": "github-darslari",
+            "RLang": "github markdown"
+        },
+        {
+            "Name": "Mirsoli Mirsultonov",
+            "TName": "ilosrim",
+            "GName": "codahiri",
+            "RName": "typescript-darslari",
+            "RLang": "TypeScript / JavaScript"
+        },
+        {
+            "Name": "Akmal Sindorov",
+            "TName": "asakew",
+            "GName": "Muhammadiy-uz",
+            "RName": "Muhammadiy",
+            "RLang": "HTML / CSS / JavaScript / SCSS / WordPress"
+        },
+        {
+            "Name": "Akbar Ali",
+            "TName": "akbar_aka",
+            "GName": "akbarali1",
+            "RName": "johncms-commander",
+            "RLang": "JavaScript / Vim_Snippet / CSS / PHP / HTML / LiveScript"
+        },
+        {
+            "Name": "Akbar Ali",
+            "TName": "akbar_aka",
+            "GName": "akbarali1",
+            "RName": "browser-file-manager",
+            "RLang": "JavaScript / Vim_Snippet / CSS / PHP / LiveScript / Makefile"
+        },
+        {
+            "Name": "Shaxzod Jomurodov",
+            "TName": "ads_buy",
+            "GName": "sjomurodov",
+            "RName": "Telegram-Pay",
+            "RLang": "PHP / Telegram Bot"
+        },
+        {
+            "Name": "Samandar Murodjonov",
+            "TName": "BezTyan",
+            "GName": "SamixGroup",
+            "RName": "nodejs-heroku",
+            "RLang": "JavaScript / Telegram Bot"
+        },
+        {
             "Name": "Abduaziz Ziyodov",
             "TName": "AbduazizZiyodov",
             "GName": "AbduazizZiyodov",
             "RName": "ramazon-api",
-            "RLang": "python — #openapi — tortoise orm — fastapi"
+            "RLang": "python — openapi — tortoise orm — fastapi"
         },
         {
             "Name": "Samandar Murodjonov",
