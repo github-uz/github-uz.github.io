@@ -1,6 +1,13 @@
 {
     "records": [
         {
+            "Name": "Abduaziz Ziyodov",
+            "TName": "AbduazizZiyodov",
+            "GName": "AbduazizZiyodov",
+            "RName": "ramazon-api",
+            "RLang": "python — #openapi — tortoise orm — fastapi"
+        },
+        {
             "Name": "Samandar Murodjonov",
             "TName": "Kakashi_Xatake",
             "GName": "microlib-php",
