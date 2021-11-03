@@ -17,7 +17,9 @@ $container-max-width: 1000px;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../img/bkg.png") 0 0;
+  background: $body-background url("../img/pngwing_com_github-6.png") right bottom no-repeat fixed;
+  background-size: contain;
+  background-size: 240px, 130px, auto;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
