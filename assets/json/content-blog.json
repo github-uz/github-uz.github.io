@@ -11,6 +11,10 @@
         {
             "post_title": "test title 3",
             "post_path": "test_path_3"
+        },
+        {
+            "post_title": "test title 4",
+            "post_path": "test_path_4"
         }
     ]
 }

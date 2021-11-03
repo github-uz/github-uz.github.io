@@ -2,10 +2,14 @@
     <h2 id="header-2">Postlar:</h2>
     
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         .card {
           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
           transition: 0.3s;
-          width: 25%;
+          width: 100%;
           border-radius: 5px;
         }
 
@@ -24,11 +28,45 @@
         .card-title {
           margin: 0;
         }
+
+        .col {
+          float: left;
+          width: 25%;
+          padding: 0 10px;
+        }
+        
+        .row {margin: 0 -5px;}
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        @media screen and (max-width: 780px) {
+          .col {
+            width: 50%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+        @media screen and (max-width: 410px) {
+          .col {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+
     </style>
     
-    <div class="card" ng-repeat="x in blogs | orderBy">
-        <div class="card-body">
-            <h4 class="card-title"><a href="template-parts/content/{{x.post_path}}">{{x.post_title}}</a></h4> 
-        </div>
+    <div class="row">
+        <div class="col" ng-repeat="x in blogs | orderBy">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="template-parts/content/{{x.post_path}}">{{x.post_title}}</a></h4> 
+                </div>
+            </div>
+        </div>      
     </div>
 </article>
