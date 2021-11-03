@@ -1,1 +1,16 @@
-content-blog.json
+{
+    "articles": [
+        {
+            "post_title": "test title",
+            "post_path": "test_path"
+        },
+        {
+            "post_title": "test title 2",
+            "post_path": "test_path_2"
+        },
+        {
+            "post_title": "test title 3",
+            "post_path": "test_path_3"
+        }
+    ]
+}

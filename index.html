@@ -45,16 +45,26 @@
 		<div ng-include="'header.html'"></div>
 		<main class="main_content">
 			<div class="container">
-				<div ng-include="'/template-parts/blog.html'" class="mb-4"></div>
+				<div ng-include="'/template-parts/blog.html'" ng-controller="content-blog" class="mb-4"></div>
 				<div ng-include="'/template-parts/table.html'" ng-controller="content-table"></div>
 			</div>
 		</main>
 		<div ng-include="'footer.html'"></div>
 		<script>
 			var app = angular.module('myApp', []);
+			
 			app.controller('content-table', function($scope, $http) {
 				$http.get("/assets/json/content-table.json")
-				.then(function (response) {$scope.names = response.data.records;});
+				.then(function (response) {
+					$scope.cTable = response.data.repository;
+				});
+			});
+
+			app.controller('content-blog', function($scope, $http) {
+				$http.get("/assets/json/content-blog.json")
+				.then(function (response) {
+					$scope.blogs = response.data.articles;
+				});
 			});
 		</script>
 		<!-- <script src="main.js"></script> -->

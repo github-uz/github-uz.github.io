@@ -35,7 +35,7 @@ table tbody tr:hover {
 		</tr>
 	</thead>
 	<tbody>
-		<tr ng-repeat="x in names | orderBy">
+		<tr ng-repeat="x in cTable | orderBy">
 			<td class="text-center">{{ $index + 1 }}</td>
 			<td><a target="_blank" href="https://t.me/{{ x.TName }}">{{ x.Name }}</a></td>
 			<td><a target="_blank" href="https://github.com/{{ x.GName }}/{{ x.RName }}">{{ x.RName | uppercase }}</a></td>
