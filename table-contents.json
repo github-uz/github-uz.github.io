@@ -1,217 +1,256 @@
-{ "records":[
-
-{"Name":"Samandar Murodjonov",
-"TName":"Kakashi_Xatake",
-"GName":"microlib-php",
-"RName":"microlib",
-"RLang":"php — Telegram Bot — Telegram Bot Kutubxona"},
-
-{"Name":"Nuruddin Iminokhunov",
-"TName":"imnuruddin",
-"GName":"Nuruddinjr",
-"RName":"developer-roadmap/tree/master/translations/uzbek",
-"RLang":"web dasturchilar uchun yo'l xaritasi/rasmli variantda, radmap_sh"},
-
-{"Name":"Akbar Ali",
-"TName":"none",
-"GName":"akbarali1",
-"RName":"clash-of-clans-api-php",
-"RLang":"php"},
-
-{"Name":"Akbar Ali",
-"TName":"none",
-"GName":"akbarali1",
-"RName":"php-short-code",
-"RLang":"php"},
-
-{"Name":"Shoxrux Rashidov",
-"TName":"MrRashidov",
-"GName":"shoxruxrashidov",
-"RName":"todo",
-"RLang":"Vue — JavaScript — SCSS — HTML"},
-
-{"Name":"Shoxrux Rashidov",
-"TName":"MrRashidov",
-"GName":"shoxruxrashidov",
-"RName":"laravel-docker",
-"RLang":"Dockerfile — php — html"},
-
-{"Name":"Shoxrux Rashidov",
-"TName":"MrRashidov",
-"GName":"shoxruxrashidov",
-"RName":"phpDocker",
-"RLang":"Dockerfile — php"},
-
-{"Name":"Shoxrux Rashidov",
-"TName":"MrRashidov",
-"GName":"shoxruxrashidov",
-"RName":"nodejs-restfull-api",
-"RLang":"JavaScript"},
-
-{"Name":"Shoxrux Rashidov",
-"TName":"MrRashidov",
-"GName":"shoxruxrashidov",
-"RName":"graphql-node-crud",
-"RLang":"JavaScript — shell"},
-
-{"Name":"Muhammadqodir Khamrakulov",
-"TName":"none",
-"GName":"thecoderslib",
-"RName":"EncoderPD-Web",
-"RLang":"html — css — JavaScript"},
-
-{"Name":"SHEYKHRI",
-"TName":"Kakashi_Xatake",
-"GName":"sheykhri",
-"RName":"sheykhri",
-"RLang":"PHP — Telegram Bot"},
-
-{"Name":"Samandar Murodjonov",
-"TName":"Kakashi_Xatake",
-"GName":"alfauz",
-"RName":"SamixGroup",
-"RLang":"PHP — Telegram Bot"},
-
-{"Name":"Akmal Sindorov",
-"TName":"asakew",
-"GName":"asakew",
-"RName":"Salom-MDB",
-"RLang":"CSS - Material Design for Bootstrap Kutubxona"},
-
-{"Name":"Odilbek Utamuratov",
-"TName":"utamuratov",
-"GName":"utamuratov",
-"RName":"NgxLoaderBar",
-"RLang":"HTML — TypeScript — JavaScript — CSS"},
-
-{"Name":"Eldor Temirov",
-"TName":"eldortemirov",
-"GName":"eldortemirov",
-"RName":"EM.UsingSwagger",
-"RLang":"C#"},
-
-{"Name":"Jahongir Murtazayev",
-"TName":"natrimore",
-"GName":"natrimore",
-"RName":"number-to-words-uz",
-"RLang":"JavaScript — npm — npm package — webpack — jest test"},
-
-{"Name":"Abdulloh Azimboev",
-"TName":"terowoc",
-"GName":"terowoc",
-"RName":"Telegram-Bot-Combot",
-"RLang":"PHP — Telegram Bot / Combot"},
-
-{"Name":"Shoxrux Rashidov",
-"TName":"MrRashidov",
-"GName":"shoxruxrashidov",
-"RName":"php-simple-chat-js",
-"RLang":"JavaScript — CSS — PHP — HACK"},
-
-{"Name":"Shoxrux Rashidov",
-"TName":"MrRashidov",
-"GName":"shoxruxrashidov",
-"RName":"Telegram-PHP-API",
-"RLang":"PHP — Telegram Bot"},
-
-{"Name":"Bexruz Xolmuminov",
-"TName":"TheBestBeXa",
-"GName":"bexruzbek",
-"RName":"link_shorter",
-"RLang":"HTML — CSS — JavaScript"},
-
-{"Name":"Mahmudov Muhammadumar",
-"TName":"MeanStackDeveloperUz",
-"GName":"MukhammadumarGuru",
-"RName":"Gallaria-maketini-verstkasi",
-"RLang":"HTML — CSS — JavaScript"},
-
-{"Name":"Mirmuxsin Hamrayev",
-"TName":"Khamroev",
-"GName":"Mirmuxsin",
-"RName":"Telegram-bot-Tas-ix-checker",
-"RLang":"PHP — Telegram bot"},
-
-{"Name":"Dilmurod Ismoilov",
-"TName":"Dilmur0d99",
-"GName":"Ismoilov",
-"RName":"animated-navbars",
-"RLang":"CSS — HTML — JavaScript/js"},
-
-{"Name":"Murod Parmanov",
-"TName":"parmonov98",
-"GName":"parmonov98",
-"RName":"scrollAnimator",
-"RLang":"JavaScript/js — VanillaJS"},
-
-{"Name":"Murod Parmanov",
-"TName":"parmonov98",
-"GName":"parmonov98",
-"RName":"ESKIZ_UZ_SMS_GATEWAY",
-"RLang":"PHP — SMS"},
-
-{"Name":"xitoy2",
-"TName":"none",
-"GName":"apiuz",
-"RName":"app_engine_installer",
-"RLang":"Python — Telegram bot"},
-
-{"Name":"Akmal Sindorov",
-"TName":"asakew",
-"RName":"bootstrap-starter",
-"GName":"asakew",
-"RLang":"CSS - Bootstrap Kutubxona"},
-
-{"Name":"Eldorbek Makhkamov",
-"TName":"makhweb",
-"RName":"blade-x-loader",
-"GName":"makhweb",
-"RLang":"Php Laravel Spa Ajax, Optimization"},
-
-{"Name":"Muhammadjavohir Sur'atov",
-"TName":"Muhammadjavohirbek",
-"RName":"movies-app",
-"GName":"Muhammadjewel",
-"RLang":"CSS — HTML — javascript/js"},
-
-{"Name":"Azizbek",
-"TName":"kripton",
-"RName":"zetgram",
-"GName":"zetgram",
-"RLang":"PHP"},
-
-{"Name":"Burhon Baqoyev",
-"TName":"python3developer",
-"RName":"uzbek-developer",
-"GName":"Burhon-Baqoyev",
-"RLang":"CSS — HTML — JavaScript/js"},
-
-{"Name":"Bobur",
-"TName":"Jumaniyazov_Bobur",
-"RName":"OOP-Exercise",
-"GName":"codeuzOfficial",
-"RLang":"JavaScript/js"},
-
-{"Name":"Bobur",
-"TName":"Jumaniyazov_Bobur",
-"RName":"Java-Collection",
-"GName":"codeuzOfficial",
-"RLang":"JavaScript/js"},
-
-{"Name":"Bobur",
-"TName":"Jumaniyazov_Bobur",
-"RName":"Java-Map",
-"GName":"codeuzOfficial",
-"RLang":"JavaScript/js"},
-
-{"Name":"Muhammadjavohir Sur'atov",
-"TName":"Muhammadjavohirbek",
-"RName":"885383-device-25",
-"GName":"Muhammadjewel",
-"RLang":"CSS — HTML — javascript/js"},
-
-{"Name":"Muhammadjavohir Sur'atov",
-"TName":"Muhammadjavohirbek",
-"RName":"885383-mishka-17",
-"GName":"Muhammadjewel",
-"RLang":"CSS — HTML — JavasCript/js"}]}
+{
+    "records": [
+        {
+            "Name": "Samandar Murodjonov",
+            "TName": "Kakashi_Xatake",
+            "GName": "microlib-php",
+            "RName": "microlib",
+            "RLang": "php — Telegram Bot — Telegram Bot Kutubxona"
+        },
+        {
+            "Name": "Nuruddin Iminokhunov",
+            "TName": "imnuruddin",
+            "GName": "Nuruddinjr",
+            "RName": "developer-roadmap/tree/master/translations/uzbek",
+            "RLang": "web dasturchilar uchun yo'l xaritasi/rasmli variantda, radmap_sh"
+        },
+        {
+            "Name": "Akbar Ali",
+            "TName": "none",
+            "GName": "akbarali1",
+            "RName": "clash-of-clans-api-php",
+            "RLang": "php"
+        },
+        {
+            "Name": "Akbar Ali",
+            "TName": "none",
+            "GName": "akbarali1",
+            "RName": "php-short-code",
+            "RLang": "php"
+        },
+        {
+            "Name": "Shoxrux Rashidov",
+            "TName": "MrRashidov",
+            "GName": "shoxruxrashidov",
+            "RName": "todo",
+            "RLang": "Vue — JavaScript — SCSS — HTML"
+        },
+        {
+            "Name": "Shoxrux Rashidov",
+            "TName": "MrRashidov",
+            "GName": "shoxruxrashidov",
+            "RName": "laravel-docker",
+            "RLang": "Dockerfile — php — html"
+        },
+        {
+            "Name": "Shoxrux Rashidov",
+            "TName": "MrRashidov",
+            "GName": "shoxruxrashidov",
+            "RName": "phpDocker",
+            "RLang": "Dockerfile — php"
+        },
+        {
+            "Name": "Shoxrux Rashidov",
+            "TName": "MrRashidov",
+            "GName": "shoxruxrashidov",
+            "RName": "nodejs-restfull-api",
+            "RLang": "JavaScript"
+        },
+        {
+            "Name": "Shoxrux Rashidov",
+            "TName": "MrRashidov",
+            "GName": "shoxruxrashidov",
+            "RName": "graphql-node-crud",
+            "RLang": "JavaScript — shell"
+        },
+        {
+            "Name": "Muhammadqodir Khamrakulov",
+            "TName": "none",
+            "GName": "thecoderslib",
+            "RName": "EncoderPD-Web",
+            "RLang": "html — css — JavaScript"
+        },
+        {
+            "Name": "SHEYKHRI",
+            "TName": "Kakashi_Xatake",
+            "GName": "sheykhri",
+            "RName": "sheykhri",
+            "RLang": "PHP — Telegram Bot"
+        },
+        {
+            "Name": "Samandar Murodjonov",
+            "TName": "Kakashi_Xatake",
+            "GName": "alfauz",
+            "RName": "SamixGroup",
+            "RLang": "PHP — Telegram Bot"
+        },
+        {
+            "Name": "Akmal Sindorov",
+            "TName": "asakew",
+            "GName": "asakew",
+            "RName": "Salom-MDB",
+            "RLang": "CSS - Material Design for Bootstrap Kutubxona"
+        },
+        {
+            "Name": "Odilbek Utamuratov",
+            "TName": "utamuratov",
+            "GName": "utamuratov",
+            "RName": "NgxLoaderBar",
+            "RLang": "HTML — TypeScript — JavaScript — CSS"
+        },
+        {
+            "Name": "Eldor Temirov",
+            "TName": "eldortemirov",
+            "GName": "eldortemirov",
+            "RName": "EM.UsingSwagger",
+            "RLang": "C#"
+        },
+        {
+            "Name": "Jahongir Murtazayev",
+            "TName": "natrimore",
+            "GName": "natrimore",
+            "RName": "number-to-words-uz",
+            "RLang": "JavaScript — npm — npm package — webpack — jest test"
+        },
+        {
+            "Name": "Abdulloh Azimboev",
+            "TName": "terowoc",
+            "GName": "terowoc",
+            "RName": "Telegram-Bot-Combot",
+            "RLang": "PHP — Telegram Bot / Combot"
+        },
+        {
+            "Name": "Shoxrux Rashidov",
+            "TName": "MrRashidov",
+            "GName": "shoxruxrashidov",
+            "RName": "php-simple-chat-js",
+            "RLang": "JavaScript — CSS — PHP — HACK"
+        },
+        {
+            "Name": "Shoxrux Rashidov",
+            "TName": "MrRashidov",
+            "GName": "shoxruxrashidov",
+            "RName": "Telegram-PHP-API",
+            "RLang": "PHP — Telegram Bot"
+        },
+        {
+            "Name": "Bexruz Xolmuminov",
+            "TName": "TheBestBeXa",
+            "GName": "bexruzbek",
+            "RName": "link_shorter",
+            "RLang": "HTML — CSS — JavaScript"
+        },
+        {
+            "Name": "Mahmudov Muhammadumar",
+            "TName": "MeanStackDeveloperUz",
+            "GName": "MukhammadumarGuru",
+            "RName": "Gallaria-maketini-verstkasi",
+            "RLang": "HTML — CSS — JavaScript"
+        },
+        {
+            "Name": "Mirmuxsin Hamrayev",
+            "TName": "Khamroev",
+            "GName": "Mirmuxsin",
+            "RName": "Telegram-bot-Tas-ix-checker",
+            "RLang": "PHP — Telegram bot"
+        },
+        {
+            "Name": "Dilmurod Ismoilov",
+            "TName": "Dilmur0d99",
+            "GName": "Ismoilov",
+            "RName": "animated-navbars",
+            "RLang": "CSS — HTML — JavaScript/js"
+        },
+        {
+            "Name": "Murod Parmanov",
+            "TName": "parmonov98",
+            "GName": "parmonov98",
+            "RName": "scrollAnimator",
+            "RLang": "JavaScript/js — VanillaJS"
+        },
+        {
+            "Name": "Murod Parmanov",
+            "TName": "parmonov98",
+            "GName": "parmonov98",
+            "RName": "ESKIZ_UZ_SMS_GATEWAY",
+            "RLang": "PHP — SMS"
+        },
+        {
+            "Name": "xitoy2",
+            "TName": "none",
+            "GName": "apiuz",
+            "RName": "app_engine_installer",
+            "RLang": "Python — Telegram bot"
+        },
+        {
+            "Name": "Akmal Sindorov",
+            "TName": "asakew",
+            "RName": "bootstrap-starter",
+            "GName": "asakew",
+            "RLang": "CSS - Bootstrap Kutubxona"
+        },
+        {
+            "Name": "Eldorbek Makhkamov",
+            "TName": "makhweb",
+            "RName": "blade-x-loader",
+            "GName": "makhweb",
+            "RLang": "Php Laravel Spa Ajax, Optimization"
+        },
+        {
+            "Name": "Muhammadjavohir Sur'atov",
+            "TName": "Muhammadjavohirbek",
+            "RName": "movies-app",
+            "GName": "Muhammadjewel",
+            "RLang": "CSS — HTML — javascript/js"
+        },
+        {
+            "Name": "Azizbek",
+            "TName": "kripton",
+            "RName": "zetgram",
+            "GName": "zetgram",
+            "RLang": "PHP"
+        },
+        {
+            "Name": "Burhon Baqoyev",
+            "TName": "python3developer",
+            "RName": "uzbek-developer",
+            "GName": "Burhon-Baqoyev",
+            "RLang": "CSS — HTML — JavaScript/js"
+        },
+        {
+            "Name": "Bobur",
+            "TName": "Jumaniyazov_Bobur",
+            "RName": "OOP-Exercise",
+            "GName": "codeuzOfficial",
+            "RLang": "JavaScript/js"
+        },
+        {
+            "Name": "Bobur",
+            "TName": "Jumaniyazov_Bobur",
+            "RName": "Java-Collection",
+            "GName": "codeuzOfficial",
+            "RLang": "JavaScript/js"
+        },
+        {
+            "Name": "Bobur",
+            "TName": "Jumaniyazov_Bobur",
+            "RName": "Java-Map",
+            "GName": "codeuzOfficial",
+            "RLang": "JavaScript/js"
+        },
+        {
+            "Name": "Muhammadjavohir Sur'atov",
+            "TName": "Muhammadjavohirbek",
+            "RName": "885383-device-25",
+            "GName": "Muhammadjewel",
+            "RLang": "CSS — HTML — javascript/js"
+        },
+        {
+            "Name": "Muhammadjavohir Sur'atov",
+            "TName": "Muhammadjavohirbek",
+            "RName": "885383-mishka-17",
+            "GName": "Muhammadjewel",
+            "RLang": "CSS — HTML — JavasCript/js"
+        }
+    ]
+}
