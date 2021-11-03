@@ -6,7 +6,8 @@ https://github-uz.github.io /
 
 # Foydalingan manbalar:
 * [AngularJS](http://angularjs.org/) v1.8.2* / (c) 2010-2020 Google LLC. 
+* [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser/) / [Theme Hacker](https://github.com/pages-themes/hacker/)
 * [Prepros](https://prepros.io/) - fayllarni kompilyatsiya qiladi.
-* [beautifytools](https://beautifytools.com/)
+* [BeautifyTools](https://beautifytools.com/)
  
 License: MIT
