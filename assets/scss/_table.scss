@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px
+}
+
+.table td,.table th {
+    text-align: left;
+    padding: 12px
+}
+
+.table tr {
+    border-bottom: 1px solid #ddd
+}
+
+.table tr.header,.table tr:hover {
+    cursor: pointer
+}
