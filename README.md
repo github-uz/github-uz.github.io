@@ -1,8 +1,7 @@
 # github-uz.github.io
-Assalomu alaykum 😊 Uzbeklar yaratgan - Repository to'plash maqsadida ochilgan...
+Assalomu alaykum 😊 Public repository to'plash yoki qo'llab-quvatlash maqsadida ochilgan.
 
-https://github-uz.github.io/ /
-**Jami:** 36-ta Open Source Repository bor
+[Sayt: GitHub-uz](https://github-uz.github.io/)
 
 # Foydalingan manbalar:
 * [AngularJS](http://angularjs.org/) v1.8.2
@@ -11,6 +10,5 @@ https://github-uz.github.io/ /
 * [BeautifyTools](https://beautifytools.com/) - Beautify All Types Codes... 
 * [Images: octodex.github](https://octodex.github.com/)
 * [hallanalysis](https://hallanalysis.com/json-ld-generator/) - SEO uchun JSON-LD sxemasi generatori.
-
 
 License: [MIT](/LICENSE)
