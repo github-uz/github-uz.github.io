@@ -1,11 +1,18 @@
 {
     "repository": [
         {
+            "Name": "CoderLast",
+            "TName": "CoderLast",
+            "GName": "Coderlast",
+            "RName": "CLFramework",
+            "RLang": "PHP - Telegram Botchilar uchun"
+        },
+        {
             "Name": "SaDi",
             "TName": "SaDi_BRo",
             "GName": "sad1go0",
             "RName": "httpstatuscodes",
-            "RLang": "TypeScript, Deno Plugin"
+            "RLang": "TypeScript - Deno Plugin"
         },
         {
             "Name": "Mirsoli Mirsultonov",
