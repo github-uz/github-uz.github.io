@@ -69,7 +69,7 @@
 		<div ng-include="'header.html'"></div>
 		<main class="main_content">
 			<div class="container">
-				<div ng-include="'/template-parts/blog.html'" ng-controller="content-blog" class="mb-4"></div>
+				<!-- <div ng-include="'/template-parts/blog.html'" ng-controller="content-blog" class="mb-4"></div> -->
 				<div ng-include="'/template-parts/table.html'" ng-controller="content-table"></div>
 			</div>
 		</main>
@@ -84,12 +84,12 @@
 				});
 			});
 
-			app.controller('content-blog', function($scope, $http) {
-				$http.get("/assets/json/content-blog.json")
-				.then(function (response) {
-					$scope.blogs = response.data.articles;
-				});
-			});
+			// app.controller('content-blog', function($scope, $http) {
+			// 	$http.get("/assets/json/content-blog.json")
+			// 	.then(function (response) {
+			// 		$scope.blogs = response.data.articles;
+			// 	});
+			// });
 		</script>
 		<!-- <script src="main.js"></script> -->
 	</body>
