@@ -9,6 +9,6 @@ Assalomu alaykum 😊 Public repository to'plash yoki qo'llab-quvatlash maqsadid
 * [Prepros](https://prepros.io/) - Fayllarni kompilyatsiya qiladi.
 * [BeautifyTools](https://beautifytools.com/) - Beautify All Types Codes... 
 * [Images: octodex.github](https://octodex.github.com/)
-* [hallanalysis](https://hallanalysis.com/json-ld-generator/) - SEO uchun JSON-LD sxemasi generatori.
+* [TechnicalSEO](https://technicalseo.com/tools/) - SEO uchun Kod sxemasi generatori.
 
 License: [MIT](/LICENSE)
