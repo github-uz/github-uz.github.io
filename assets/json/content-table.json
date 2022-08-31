@@ -5,7 +5,7 @@
             "TName": "SaDi_BRo",
             "GName": "sad1go0",
             "RName": "httpstatuscodes",
-            "RLang": "TypeScript"
+            "RLang": "TypeScript, Deno Plugin"
         },
         {
             "Name": "Mirsoli Mirsultonov",
