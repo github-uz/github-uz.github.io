@@ -1,6 +1,13 @@
 {
     "repository": [
         {
+            "Name": "SaDi",
+            "TName": "SaDi_BRo",
+            "GName": "sad1go0",
+            "RName": "httpstatuscodes",
+            "RLang": "TypeScript"
+        },
+        {
             "Name": "Mirsoli Mirsultonov",
             "TName": "ilosrim",
             "GName": "codahiri",
